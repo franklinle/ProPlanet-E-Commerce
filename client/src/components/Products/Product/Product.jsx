@@ -4,6 +4,8 @@ import "./Product.scss";
 
 const Product = ({ data, id }) => {
     const navigate = useNavigate();
+    const imageUrl = data.image?.data[0]?.attributes?.url || 'https://via.placeholder.com/150';
+
     return (
         <div
             className="product-card"
@@ -13,9 +15,12 @@ const Product = ({ data, id }) => {
                 <img
                     src={
                         process.env.REACT_APP_STRIPE_APP_DEV_URL +
-                        data.image.data[0].attributes.url
+                        data.img.data[0].attributes.url
                     }
+                    alt=" "
                 />
+
+                
             </div>
             <div className="prod-details">
                 <span className="name">{data.title}</span>
