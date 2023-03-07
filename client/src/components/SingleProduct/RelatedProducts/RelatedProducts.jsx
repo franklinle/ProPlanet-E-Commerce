@@ -12,6 +12,6 @@ const RelatedProducts = ({ categoryId, productId }) => {
             <Products headingText="Related Products" products={data} />
         </div>
     );
-};
+};  
 
 export default RelatedProducts;
