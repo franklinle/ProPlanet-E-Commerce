@@ -39,7 +39,7 @@ const Header = () => {
                         <li>Categories</li>
                     </ul>
                     <div className="center" onClick={() => navigate("/")}>
-                        JSDEVSTORE.
+                        ProPlanet
                     </div>
                     <div className="right">
                         <TbSearch onClick={() => setSearchModal(true)} />
