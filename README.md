@@ -55,5 +55,5 @@ npm start
 
 ### Customize configuration:
 
-See [Strapi API Documentation](https://docs.strapi.io/dev-docs/intro).
-See [Stripe API Documentation](https://stripe.com/docs/api).
+- See [Strapi API Documentation](https://docs.strapi.io/dev-docs/intro).
+- See [Stripe API Documentation](https://stripe.com/docs/api).
